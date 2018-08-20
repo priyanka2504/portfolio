@@ -27,33 +27,33 @@ class ContactMe extends Component {
                     <div className="row">
                         <div className='col-md-6 order-md-5 mb-5'>
                         <Jumbotron>
-                            <Form className="text-primary">
+                            <Form className="text-dark">
                                 <Col sm={{ size: 5, order: 5, offset: 3 }}>
                                         <h5 className="text-success"> <em><b> Drop me a line! I would love to hear from you </b> </em> </h5>
                                         <FormGroup row>
                                             <Col sm={12}>
-                                                <Label htmlFor="name" sm={4} size="sm" className="text-primary"> Your Name: </Label>
+                                                <Label htmlFor="name" sm={4} size="sm" className="text-dark"> Your Name: </Label>
                                                 <input className="form-control" required type="text" />
                                             </Col>
                                         </FormGroup>
 
                                         <FormGroup row>
                                             <Col sm={12}>
-                                                <Label htmlFor="email" sm={4} size="sm" className="text-primary"> Your email: </Label>
+                                                <Label htmlFor="email" sm={4} size="sm" className="text-dark"> Your email: </Label>
                                                 <input className="form-control" required type="text" />
                                             </Col>
                                         </FormGroup>
 
                                         <FormGroup row>
                                             <Col sm={12}>
-                                                <Label htmlFor="subject" sm={4} size="sm" className="text-primary"> Subject: </Label>
+                                                <Label htmlFor="subject" sm={4} size="sm" className="text-dark"> Subject: </Label>
                                                 <input className="form-control" required type="text" />
                                             </Col>
 
                                         </FormGroup>
                                         <FormGroup row>
                                             <Col sm={12}>
-                                                <Label htmlFor="message" sm={4} size="sm" className="text-primary">
+                                                <Label htmlFor="message" sm={4} size="sm" className="text-dark">
                                                     Message: </Label>
                                                 <textarea className="form-control" required rows="2" cols="28" />
                                             </Col>
