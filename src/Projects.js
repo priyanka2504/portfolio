@@ -9,19 +9,14 @@ class Projects extends Component {
         return (
             <div>
 
-                <div className="admin-bg">
-                    <img src={projects} alt="background" className="bg" />
-                </div>
-
-                
                     <div className="row">
                         <div className='col-md-8 order-md-5 mb-5'>
                             <Jumbotron>
                                 <h4 className="text-danger"> <b> Check out the various apps that I have worked on ! </b> </h4>
                                 <div className="scroll">
-                                    <table className="table table-bordered table-collapsed ">
+                                    <table className="table table-borderless table-collapsed ">
                                     <thead>
-                                        <tr className="text-success">
+                                        <tr className="text-white bg-dark">
                                             <th> # </th>
                                             <th> Project Title </th>
                                             <th> Technologies Used </th>

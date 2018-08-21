@@ -73,9 +73,7 @@ class Workings extends Component {
     render() {
         return (
             <div>
-                <div className="admin-bg">
-                    <img src={Background} alt="background" className="bg" />
-                </div>
+               
                 <div className="workings" width="100%">
                     <div className="container">
                         <div className="row">

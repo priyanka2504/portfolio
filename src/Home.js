@@ -7,9 +7,7 @@ class Home extends Component {
     render() {
         return (
             <div align="center">
-               <div className="admin-bg">
-                    <img src={Background} alt="background" className="bg" />
-                </div>
+              
                 <div className="home">
                 <Jumbotron >
                     <h1 className="text-primary"> <b> Hey, I am Priyanka ! :) </b> </h1>

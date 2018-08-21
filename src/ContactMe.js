@@ -20,16 +20,14 @@ class ContactMe extends Component {
     render() {
         return (
             <div >
-                <div className="admin-bg">
-                    <img src={contact} alt="background" className="bg" />
-                </div>
+              
                 <div className="contact">
                     <div className="row">
                         <div className='col-md-6 order-md-5 mb-5'>
                         <Jumbotron>
                             <Form className="text-dark">
                                 <Col sm={{ size: 5, order: 5, offset: 3 }}>
-                                        <h5 className="text-success"> <em><b> Drop me a line! I would love to hear from you </b> </em> </h5>
+                                        <h5 className="text-dark"> <em><b> Drop me a line! I would love to hear from you </b> </em> </h5>
                                         <FormGroup row>
                                             <Col sm={12}>
                                                 <Label htmlFor="name" sm={4} size="sm" className="text-dark"> Your Name: </Label>
@@ -74,9 +72,9 @@ class ContactMe extends Component {
 
                         <div align="right" className='col-md-6 order-md-5 mb-5'>
                             <img src={email} width="70" height="70" alt="email" />
-                            <h5 className="text-white"> <b> priyanka.suresh1@wipro.com </b> </h5>
+                            <h5 className="text-dark"> <b> priyanka.suresh1@wipro.com </b> </h5>
                             <img src={phone} width="70" height="70" alt="phone" />
-                            <h5 className="text-white"> <b> +91 9789921339 </b> </h5>
+                            <h5 className="text-dark"> <b> +91 9789921339 </b> </h5>
                         </div>
                     </div>
                 </div>

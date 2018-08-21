@@ -1,18 +1,18 @@
 .App {
   text-align: center;
-  font-family: "Courier";
+  font-family: "helvetica";
   color: white;
 }
 
 .projects {
-font-family: "courier";
+font-family: "helvetica";
 margin-top: 20px;
 margin-left: 200px;
 }
 
 .scroll {
 max-width: 70em;
-height: 33em;
+height: 40em;
 padding: 1em;
 margin: auto;
 overflow: auto;
@@ -22,11 +22,11 @@ text-align: left;
 
 .contact {
 margin-top: 40px;
-font-family: "courier";
+font-family: "helvetica";
 }
  
 h2 {
-font-family: "courier";
+font-family: "helvetica";
 }
 
 ul {
@@ -120,20 +120,20 @@ transform:translatey(0);
  
 .home {
 text-align: "center";
-font-family: "Courier";
+font-family: "helvetica";
 opacity: 0.8;
 } 
 
 .AboutMe {
 margin-left:20px;
 margin-top: 20px;
-font-family: "Courier"
+font-family: "helvetica"
 }
 
 li  {
   color: rgb(245, 245, 245);
   padding: 8px 16px;
-  font-family:  "Courier"
+  font-family:  "helvetica"
 }
 
 .priyanka {
